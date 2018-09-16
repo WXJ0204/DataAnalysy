@@ -79,10 +79,10 @@ public class DataAnalysy1 {
                 String key ;
                 key = iter.next();
                 System.out.println(key +"	" +map1.get(key)+"\n");
-                //line[j++] = key +"	" +map.get(key)/map1.get(key)+"\n";               
+                line[j++] = key +"	" +map.get(key)/map1.get(key)+"\n";               
             }                      
             
-            //WriteData wd = new WriteData(line);
+            WriteData wd = new WriteData(line);
                                    
             
                   

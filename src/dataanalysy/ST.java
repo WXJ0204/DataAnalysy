@@ -5,6 +5,7 @@
  */
 package dataanalysy;
 
+import java.util.Iterator;
 import java.util.PriorityQueue;
 import java.util.Queue;
 
@@ -196,7 +197,13 @@ public class ST<Key extends Comparable<Key>,Value>
     app.put(98, "q45j");
     app.put(-9, "h3dh");
     app.put(19, "qidfj");
-        System.out.println(app.get(19));
+       // System.out.println(app.get(app.max()));
+        Iterator<Integer> Iter = app.keys().iterator();
+        while (Iter.hasNext()) {
+            System.out.println(Iter.next());
+            
+        }
+       
     
 }
 }
